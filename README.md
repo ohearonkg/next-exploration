@@ -9,9 +9,13 @@ yarn install
 yarn dev
 ```
 
+Go to `http://localhost:3000`
+
 ## Running The Styleguide Locally
 
 ```bash
 yarn install
 yarn styleguide
 ```
+
+Go to `http://localhost:6060`
