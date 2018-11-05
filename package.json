@@ -5,7 +5,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "styleguide": "npx styleguidist server"
   },
   "dependencies": {
     "@zeit/next-typescript": "^1.1.1",
@@ -17,6 +18,8 @@
     "@types/next": "^7.0.1",
     "@types/react": "^16.4.16",
     "@types/react-dom": "16.0.8",
+    "react-docgen-typescript": "^1.12.0",
+    "react-styleguidist": "^8.0.2",
     "typescript": "3.1.1"
   },
   "license": "ISC"
