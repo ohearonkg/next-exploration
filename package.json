@@ -2,6 +2,7 @@
   "name": "with-typescript",
   "version": "1.0.0",
   "scripts": {
+    "test": "jest --watch",
     "dev": "next",
     "build": "next build",
     "start": "next start",
@@ -15,11 +16,18 @@
     "react-dom": "^16.6.0"
   },
   "devDependencies": {
+    "@types/jest": "^23.3.9",
     "@types/next": "^7.0.1",
     "@types/react": "^16.4.16",
     "@types/react-dom": "16.0.8",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.6.0",
     "react-docgen-typescript": "^1.12.0",
     "react-styleguidist": "^8.0.2",
+    "react-testing-library": "^5.2.3",
     "typescript": "3.1.1"
   },
   "license": "ISC"
