@@ -1,6 +1,6 @@
 module.exports = {
   components: "./components/**/*.tsx",
-  ignore: ["./components/Layout.tsx"],
+  ignore: ["./components/Layout.tsx", "./components/**/*spec.tsx"],
   propsParser: require("react-docgen-typescript").parse,
   webpackConfig: {
     module: {
